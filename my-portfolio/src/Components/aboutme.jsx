@@ -4,11 +4,15 @@ import { ABOUT_TEXT } from "../constants";
 const Aboutme = () => {
   return (
     <div className="pb-4">
-      <h2 className="my-20 text-center text-4xl">About Me</h2>
+      <h2 className="my-20 text-center text-4xl font-semibold">About Me</h2>
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex items-center justify-center">
-            <img src={Aboutmepic} alt="about me" className=" rounded-2xl" />
+            <img
+              src={Aboutmepic}
+              alt="about me"
+              className="w-64 h-128 shadow hover:shadow-lg rounded-2xl "
+            />
           </div>
         </div>
         <div className="w-full lg:w-1/2">
