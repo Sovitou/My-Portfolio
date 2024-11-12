@@ -1,9 +1,7 @@
-import project1 from '../assets/project1.png';
-import project2 from '../assets/project2.png';
-import project3 from '../assets/project3.png';
-import project4 from '../assets/project4.png';
-
-
+import project1 from "../Asset/project/Project-1.png";
+import project2 from "../Asset/project/Project-2.png";
+import project3 from "../Asset/project/Project-3.png";
+import project4 from "../Asset/project/Project-4.png";
 
 export const HERO_CONTENT = `
 Hello there, I am Vitou, progressing to be a Full-Stack Developer .
