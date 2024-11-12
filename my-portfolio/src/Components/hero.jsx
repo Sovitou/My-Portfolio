@@ -21,7 +21,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="container mx-auto flex flex-wrap items-center">
+    <div className="border-b border-neutral-50 pb-12 container mx-auto flex flex-wrap items-center">
       {/* Left Content */}
       <div className="w-full lg:w-1/2 px-12 text-center lg:text-left ">
         <h1 className="text-5xl lg:text-7xl font-bold leading-tight text-neutral-900">

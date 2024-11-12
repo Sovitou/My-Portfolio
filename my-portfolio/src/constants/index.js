@@ -7,9 +7,16 @@ export const HERO_CONTENT = `
 Hello there, I am Vitou, progressing to be a Full-Stack Developer .
 I am passionate about problem-solving, researching, and reading. `;
 
-export const ABOUT_TEXT = `I am Vitou , a Software Engineering student in Phnom Penh with a strong passion for tech innovation and development. I am currently working on several projects and sectors.
-Beyond my academic pursuits, I am actively self-taught Full-Stack Web Development through platforms like Coursera, LinkedIn Learning, Udemy, and YouTube. I have had the opportunity to participate in several tech competitions, such as the Techno Innovation Challenge (Season 7), Unipreneur National Challenge, Ideathon (Season 3),and SmartStart ULP National Hackathon (Season 4) where I honed my skills in management, coding, design, and research.
-I am passionate about building solutions that solve real-world problems and I am always looking for opportunities to learn, grow, and make an impact.`;
+export const ABOUT_TEXT = `
+Hi, I am Vitou, a passionate Software Engineering student with a focus on Full-Stack Development. I have a keen interest in Front-end Development and hands-on experience building mini projects that showcase my skills in creating intuitive and responsive web applications.
+
+My ultimate goal is to become a skilled Full-Stack Developer, crafting efficient and user-friendly solutions.
+
+When I'm not coding, I enjoy exploring technology-related videos to stay updated and inspired.
+
+Feel free to check out my projects below. I'm open to suggestions and always eager to improve—let's connect!
+
+`;
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
