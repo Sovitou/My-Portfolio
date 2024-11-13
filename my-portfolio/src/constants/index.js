@@ -8,14 +8,7 @@ Hello there, I am Vitou, progressing to be a Full-Stack Developer .
 I am passionate about problem-solving, researching, and reading. `;
 
 export const ABOUT_TEXT = `
-Hi, I am Vitou, a passionate Software Engineering student with a focus on Full-Stack Development. I have a keen interest in Front-end Development and hands-on experience building mini projects that showcase my skills in creating intuitive and responsive web applications.
-
-My ultimate goal is to become a skilled Full-Stack Developer, crafting efficient and user-friendly solutions.
-
-When I'm not coding, I enjoy exploring technology-related videos to stay updated and inspired.
-
-Feel free to check out my projects below. I'm open to suggestions and always eager to improve—let's connect!
-
+"I'm Vitou, a Software Engineering student focused on Full-Stack Development with a passion for Front-end Development. I enjoy building mini projects and strive to create intuitive, responsive web applications. When I'm not coding, I stay inspired by exploring technology-related videos. Let's connect and share ideas!"
 `;
 export const EXPERIENCES = [
   {
@@ -33,6 +26,7 @@ export const PROJECTS = [
     image: project1,
     description: "An interactive landing for dog dating app",
     technologies: ["HTML", "CSS", "BootStrap"],
+    link: "https://sovitou.github.io/TinDog/",
   },
   {
     title: "Guessing Number",
@@ -40,6 +34,7 @@ export const PROJECTS = [
     description:
       "A single-player game where the player attempts to guess a randomly generated number within a specified range",
     technologies: ["HTML", "CSS", "JavaScript"],
+    link: "https://sovitou.github.io/Guessing-Game/",
   },
   {
     title: "Pig-Dice Game",
@@ -47,12 +42,14 @@ export const PROJECTS = [
     description:
       "A multiplayer game where players take turns rolling a die to accumulate points",
     technologies: ["HTML", "CSS", "JavaScript"],
+    link: "https://sovitou.github.io/Pig-Dice-Game/",
   },
   {
     title: "SerkSa",
     image: project4,
     description: "A landing modern website of an interactive learning app ",
     technologies: ["React", "Firebase", "SaSS"],
+    link:"",
   },
 ];
 
