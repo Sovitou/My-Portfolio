@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 const Technology = () => {
   return (
     <div className="border-b border-neutral-50 pb-12">
-      <h2 className="my-20 text-center text-4xl font-semibold">Technologies</h2>
+      <h2 className="my-20 text-center text-4xl font-semibold">TECHNOLOGY</h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <motion.div
           className="rounded-2xl border-4 border-neutral-100 p-4"
@@ -17,7 +17,7 @@ const Technology = () => {
             y: ["0", "-30px", "0"], // Move higher and lower
           }}
           transition={{
-            duration: 2,
+            duration: 3, // Increased duration
             repeat: Infinity,
             repeatType: "loop",
             ease: "easeInOut",
@@ -32,7 +32,7 @@ const Technology = () => {
             y: ["0", "-30px", "0"],
           }}
           transition={{
-            duration: 2,
+            duration: 3, // Increased duration
             repeat: Infinity,
             repeatType: "loop",
             ease: "easeInOut",
@@ -47,7 +47,7 @@ const Technology = () => {
             y: ["0", "-30px", "0"],
           }}
           transition={{
-            duration: 2,
+            duration: 3, // Increased duration
             repeat: Infinity,
             repeatType: "loop",
             ease: "easeInOut",
@@ -62,7 +62,7 @@ const Technology = () => {
             y: ["0", "-30px", "0"],
           }}
           transition={{
-            duration: 2,
+            duration: 3, // Increased duration
             repeat: Infinity,
             repeatType: "loop",
             ease: "easeInOut",
@@ -77,7 +77,7 @@ const Technology = () => {
             y: ["0", "-30px", "0"],
           }}
           transition={{
-            duration: 2,
+            duration: 3, // Increased duration
             repeat: Infinity,
             repeatType: "loop",
             ease: "easeInOut",
@@ -92,7 +92,7 @@ const Technology = () => {
             y: ["0", "-30px", "0"],
           }}
           transition={{
-            duration: 2,
+            duration: 3, // Increased duration
             repeat: Infinity,
             repeatType: "loop",
             ease: "easeInOut",

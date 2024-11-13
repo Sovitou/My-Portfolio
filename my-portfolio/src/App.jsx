@@ -1,5 +1,4 @@
 import "./style/index.css";
-// import "../src/Components/navbar";
 import Navbar from "./Components/navbar";
 import Hero from "./Components/hero";
 import Aboutme from "./Components/aboutme";

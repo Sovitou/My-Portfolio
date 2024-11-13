@@ -1,7 +1,8 @@
 import { HERO_CONTENT } from "../constants";
 import homepage from "../Asset/homepage-pic.svg";
 import { motion, useTransform, animate, useMotionValue } from "framer-motion";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import resume from "../Asset/resume.pdf";
 
 const Hero = () => {
   const myName = "KHEM SOVITOU";
@@ -14,11 +15,17 @@ const Hero = () => {
     myRole.slice(0, Math.round(lastest))
   );
 
+  const [showModal, setShowModal] = useState(false);
+
+  const handleResumeClick = () => {
+    setShowModal(true);
+  };
+
   useEffect(() => {
     const controls = animate(count, myName.length, {
       type: "tween",
       duration: 5,
-      repeat: Infinity,
+      repeat: 3,
       ease: "easeInOut",
     });
     return controls.stop;
@@ -28,7 +35,7 @@ const Hero = () => {
     const controls = animate(count, myRole.length, {
       type: "tween",
       duration: 4,
-      repeat: Infinity,
+      repeat: 3,
       ease: "easeInOut",
     });
     return controls.stop;
@@ -56,18 +63,19 @@ const Hero = () => {
           {HERO_CONTENT}
         </p>
 
+        {/* Resume Button */}
         <motion.button
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           type="button"
-          className="shadow hover:shadow-lg mt-6 px-5 py-2.5 text-sm font-medium text-white bg-gray-500 hover:bg-gray-700 rounded-lg text-center dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800 "
+          className="shadow hover:shadow-lg mt-6 px-5 py-2.5 text-sm font-medium text-white bg-gray-500 hover:bg-gray-700 rounded-lg text-center dark:bg-gray-600 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+          onClick={handleResumeClick}
         >
           View Resume
         </motion.button>
       </div>
 
       {/* Right Image */}
-
       <motion.div
         animate={{ x: [0, -25, 0] }}
         initial={{ x: -25 }}
@@ -84,8 +92,22 @@ const Hero = () => {
           className="w-full max-w-md lg:max-w-lg"
         />
       </motion.div>
+
+      {/* Resume Modal */}
+      {showModal && (
+        <div className="fixed top-0 left-0 right-0 bottom-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-lg w-3/4 h-3/4">
+            <button
+              onClick={() => setShowModal(false)}
+              className="absolute top-2 right-2 text-white font-bold text-xl"
+            >
+              X
+            </button>
+            <iframe src={resume} className="w-full h-full" title="Resume" />
+          </div>
+        </div>
+      )}
     </div>
-    // </div>
   );
 };
 

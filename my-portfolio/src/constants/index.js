@@ -15,8 +15,15 @@ export const EXPERIENCES = [
     year: "2024 - Present",
     role: "Project Manager",
     company: "SerkSa",
-    description: `Led a team in developing and designing a learning web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases.`,
-    technologies: ["Javascript", "React.js", "Next.js", "MongoDB"],
+    description: `Led a team in developing and designing a learning mobile application using React Native for the frontend and FastAPI for the backend. Implemented interactive animations using Framer Motion and Rive. Oversaw UI/UX design using Figma and deployed the application on AWS for scalability and reliability.`,
+    technologies: [
+      "React Native",
+      "FastAPI",
+      "AWS",
+      "Framer Motion",
+      "Rive",
+      "Figma",
+    ],
   },
 ];
 
@@ -49,7 +56,7 @@ export const PROJECTS = [
     image: project4,
     description: "A landing modern website of an interactive learning app ",
     technologies: ["React", "Firebase", "SaSS"],
-    link:"",
+    link: "https://serksa.tech/",
   },
 ];
 
