@@ -6,9 +6,9 @@ import { FaTelegram } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <div className="border border-black">
+    <div className="">
       <nav className="flex items-center justify-between px-4 py-4">
-        <div className="flex flex-shrink-0 items-center">
+        <div className="flex-auto flex-shrink-0 items-center">
           <img
             src={logo}
             alt="logo"

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Aboutme = () => {
   return (
-    <div className="border border-black pb-12">
+    <div className="pb-12">
       <motion.h2
         className="my-12 text-center text-4xl font-semibold text-gray-800"
         whileInView={{ opacity: 1, x: 0 }}

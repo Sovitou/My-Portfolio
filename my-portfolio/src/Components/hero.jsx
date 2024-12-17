@@ -6,7 +6,7 @@ import resume from "../Asset/resume.pdf";
 
 const Hero = () => {
   const myName = "KHEM SOVITOU";
-  const myRole = "Full-Stack Developer";
+  const myRole = "Frontend Developer";
   const count = useMotionValue(0);
   const displayName = useTransform(count, (lastest) =>
     myName.slice(0, Math.round(lastest)),
@@ -24,8 +24,8 @@ const Hero = () => {
   useEffect(() => {
     const controls = animate(count, myName.length, {
       type: "tween",
-      duration: 5,
-      repeat: 3,
+      duration: 3,
+      repeat: 1,
       ease: "easeInOut",
     });
     return controls.stop;
@@ -34,15 +34,15 @@ const Hero = () => {
   useEffect(() => {
     const controls = animate(count, myRole.length, {
       type: "tween",
-      duration: 4,
-      repeat: 3,
+      duration: 2,
+      repeat: 1,
       ease: "easeInOut",
     });
     return controls.stop;
   }, []);
 
   return (
-    <div className="container mx-auto flex flex-wrap items-center border border-black pb-12">
+    <div className="container mx-auto flex flex-wrap items-center pb-12">
       {/* Left Content */}
       <div className="w-full px-12 text-center lg:w-1/2 lg:text-left">
         <h1 className="text-5xl font-bold leading-tight text-neutral-900 lg:text-7xl">
