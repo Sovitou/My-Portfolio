@@ -21,10 +21,10 @@ const Experience = () => {
             initial={{ opacity: 0, x: 100 }}
             transition={{ duration: 0.6 }}
           >
-            <div className="p-2 font-semibold w-full sm:w-1/3 md:w-1/4 lg:w-1/4">
+            <div className="w-full p-2 font-semibold sm:w-1/3 md:w-1/4 lg:w-1/4">
               <motion.p
                 className="mb-2 text-sm text-neutral-700"
-                whileInView={{ opacity: 1, x: 0 }} // Apply animation when in view
+                whileInView={{ opacity: 1, x: 0 }}
                 initial={{ opacity: 0, x: -50 }}
                 transition={{ duration: 0.6 }}
               >
@@ -34,7 +34,7 @@ const Experience = () => {
             <div className="w-full sm:w-2/3 md:w-3/4 lg:w-3/4">
               <motion.h6
                 className="mb-2 font-semibold"
-                whileInView={{ opacity: 1, x: 0 }} // Apply animation when in view
+                whileInView={{ opacity: 1, x: 0 }} 
                 initial={{ opacity: 0, x: -50 }}
                 transition={{ duration: 0.8 }}
               >
@@ -45,7 +45,7 @@ const Experience = () => {
               </motion.h6>
               <motion.p
                 className="mb-4 text-neutral-500"
-                whileInView={{ opacity: 1, x: 0 }} // Apply animation when in view
+                whileInView={{ opacity: 1, x: 0 }} 
                 initial={{ opacity: 0, x: 50 }}
                 transition={{ duration: 0.8 }}
               >
@@ -56,7 +56,7 @@ const Experience = () => {
                   <motion.span
                     key={index}
                     className="mr-2 mt-4 rounded bg-slate-400 px-2 py-1 text-sm font-medium text-white"
-                    whileInView={{ opacity: 1, x: 0 }} // Apply animation when in view
+                    whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -50 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
                     whileHover={{ scale: 1.2 }}

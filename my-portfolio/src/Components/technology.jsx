@@ -14,10 +14,10 @@ const Technology = () => {
         <motion.div
           className="rounded-2xl border-4 border-neutral-100 p-4"
           animate={{
-            y: ["0", "-30px", "0"], // Move higher and lower
+            y: ["0", "-30px", "0"],
           }}
           transition={{
-            duration: 3, // Increased duration
+            duration: 3,
             repeat: Infinity,
             repeatType: "loop",
             ease: "easeInOut",
@@ -32,7 +32,7 @@ const Technology = () => {
             y: ["0", "-30px", "0"],
           }}
           transition={{
-            duration: 3, // Increased duration
+            duration: 3,
             repeat: Infinity,
             repeatType: "loop",
             ease: "easeInOut",
@@ -47,7 +47,7 @@ const Technology = () => {
             y: ["0", "-30px", "0"],
           }}
           transition={{
-            duration: 3, // Increased duration
+            duration: 3,
             repeat: Infinity,
             repeatType: "loop",
             ease: "easeInOut",
@@ -62,7 +62,7 @@ const Technology = () => {
             y: ["0", "-30px", "0"],
           }}
           transition={{
-            duration: 3, // Increased duration
+            duration: 3,
             repeat: Infinity,
             repeatType: "loop",
             ease: "easeInOut",
@@ -77,7 +77,7 @@ const Technology = () => {
             y: ["0", "-30px", "0"],
           }}
           transition={{
-            duration: 3, // Increased duration
+            duration: 3,
             repeat: Infinity,
             repeatType: "loop",
             ease: "easeInOut",
@@ -92,7 +92,7 @@ const Technology = () => {
             y: ["0", "-30px", "0"],
           }}
           transition={{
-            duration: 3, // Increased duration
+            duration: 3,
             repeat: Infinity,
             repeatType: "loop",
             ease: "easeInOut",

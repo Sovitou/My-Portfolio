@@ -8,16 +8,16 @@ Hello there, I am Vitou, progressing to be a Full-Stack Developer .
 I am passionate about problem-solving, researching, and reading. `;
 
 export const ABOUT_TEXT = `
-"I'm Vitou, a Software Engineering student focused on Full-Stack Development with a passion for Front-end Development. I enjoy building mini projects and strive to create intuitive, responsive web applications. When I'm not coding, I stay inspired by exploring technology-related videos. Let's connect and share ideas!"
+"I'm Vitou, a Software Engineering student focused on Web Development with a passion for Front-end Development. I enjoy building mini projects and strive to create intuitive . When I'm not coding, I stay inspired by exploring technology-related videos. Let's connect and share ideas!"
 `;
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
     role: "Project Manager",
     company: "SerkSa",
-    description: `Led a team in developing and designing a learning mobile application using React Native for the frontend and FastAPI for the backend. Implemented interactive animations using Framer Motion and Rive. Oversaw UI/UX design using Figma and deployed the application on AWS for scalability and reliability.`,
+    description: `Led a team in developing and designing a learning mobile application using Flutter for User Interface and FastAPI for the backend. Implemented interactive animations using Framer Motion and Rive. Oversaw UI/UX design using Figma and deployed the application on AWS for scalability and reliability.`,
     technologies: [
-      "React Native",
+      "Flutter",
       "FastAPI",
       "AWS",
       "Framer Motion",

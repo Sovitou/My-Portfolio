@@ -6,13 +6,13 @@ import { FaTelegram } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <>
+    <div className="border border-black">
       <nav className="flex items-center justify-between px-4 py-4">
         <div className="flex flex-shrink-0 items-center">
           <img
             src={logo}
             alt="logo"
-            className="h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32 mx-4"
+            className="mx-4 h-16 w-16 sm:h-24 sm:w-24 md:h-32 md:w-32"
           />
         </div>
         <div className="m-4 flex flex-wrap items-center justify-center gap-4 text-xl sm:gap-6 md:gap-8">
@@ -46,7 +46,7 @@ const Navbar = () => {
           </a>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 

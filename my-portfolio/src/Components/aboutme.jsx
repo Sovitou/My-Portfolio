@@ -4,19 +4,20 @@ import { motion } from "framer-motion";
 
 const Aboutme = () => {
   return (
-    <div className="border border-neutral-50 pb-12">
+    <div className="border border-black pb-12">
       <motion.h2
         className="my-12 text-center text-4xl font-semibold text-gray-800"
-        whileInView={{ opacity: 1, x: 0 }} // Fade in when in view
+        whileInView={{ opacity: 1, x: 0 }}
         initial={{ opacity: 0 }}
         transition={{ duration: 0.8 }}
       >
         ABOUT ME
       </motion.h2>
-      <div className="flex flex-wrap justify-center lg:justify-between items-center px-6 lg:px-16">
+      {/* About me picture */}
+      <div className="flex flex-wrap items-center justify-center px-6 lg:justify-between lg:px-16">
         <motion.div
-          className="w-full lg:w-1/2 p-4"
-          whileInView={{ opacity: 1, x: 0 }} // Apply animation when in view
+          className="w-full p-4 lg:w-1/2"
+          whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 2 }}
         >
@@ -24,18 +25,19 @@ const Aboutme = () => {
             <motion.img
               src={Aboutmepic}
               alt="about me"
-              className="w-84 h-96 shadow-xl rounded-3xl transition-all duration-300 ease-in-out"
+              className="w-84 h-96 rounded-3xl shadow-xl transition-all duration-300 ease-in-out"
               whileHover={{ scale: 1.25 }}
               transition={{ duration: 0.3 }}
             />
           </div>
         </motion.div>
 
-        <div className="w-full lg:w-1/2 p-4">
+        {/* Right Text */}
+        <div className="w-full p-4 lg:w-1/2">
           <div className="flex justify-center lg:justify-start">
             <motion.p
-              className="mt-6 max-w-lg mx-auto lg:mx-0 text-neutral-700 font-light text-lg"
-              whileInView={{ opacity: 1, x: 0 }} // Apply animation when in view
+              className="mx-auto mt-6 max-w-lg text-lg font-light text-neutral-700 lg:mx-0"
+              whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: -50, x: 100 }}
               transition={{ duration: 0.6, delay: 0.3 }}
             >
